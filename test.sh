@@ -1,4 +1,5 @@
 #!/bin/bash
-echo "first line"
-echo test
-echo "this is feature1 branch"
+printf "please enter your name: "
+read NAME
+printf "Your name is $NAME\n"
+exit 0
